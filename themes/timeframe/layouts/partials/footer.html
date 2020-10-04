@@ -1,0 +1,44 @@
+<footer class="bg-light">
+  <div class="section-sm">
+    <div class="container">
+      <div class="text-center">
+        <a class="navbar-brand mb-5" href="{{ .Site.BaseURL | relLangURL }}"><img class="img-fluid"
+            src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"></a>
+        <ul class="list-inline mb-5 footer-menu">
+          {{ range .Site.Menus.footer }}
+          <li class="list-inline-item"><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+        <ul class="list-inline social-icons">
+          {{ range .Site.Params.social }}
+          <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="fa {{.icon}}"></i></a></li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="border-top border-default text-center py-4">
+    <p class="mb-0 content">{{ .Site.Params.copyright | markdownify }}</p>
+  </div>
+</footer>
+
+{{ "<!-- Search index -->" | safeHTML }}
+{{ if .Site.Params.search }}
+<script>
+  var indexURL = {{"index.json" | absURL}}
+</script>
+{{ end }}
+
+{{ "<!-- Google Map API -->" | safeHTML }}
+{{ with .Site.Params.map.gmap_api }}
+<script src="{{ . | safeURL }}"></script>
+{{ end }}
+
+{{ "<!-- JS Plugins -->" | safeHTML }}
+{{ range .Site.Params.plugins.js}}
+<script src="{{ .link | absURL }}"></script>
+{{ end }}
+
+{{ "<!-- Main Script -->" | safeHTML }}
+{{ $script := resources.Get "js/script.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
