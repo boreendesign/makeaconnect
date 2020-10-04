@@ -2,9 +2,9 @@
   <div class="section-sm">
     <div class="container">
       <div class="text-center">
-        <a class="navbar-brand mb-5" href="{{ .Site.BaseURL | relLangURL }}"><img class="img-fluid"
+        <!--  <a class="navbar-brand mb-5" href="{{ .Site.BaseURL | relLangURL }}"><img class="img-fluid"
             src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"></a>
-        <ul class="list-inline mb-5 footer-menu">
+      <ul class="list-inline mb-5 footer-menu">
           {{ range .Site.Menus.footer }}
           <li class="list-inline-item"><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
           {{ end }}
@@ -13,13 +13,13 @@
           {{ range .Site.Params.social }}
           <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="fa {{.icon}}"></i></a></li>
           {{ end }}
-        </ul>
+        </ul>-->
       </div>
     </div>
   </div>
-  <div class="border-top border-default text-center py-4">
+  <!--<div class="border-top border-default text-center py-4">
     <p class="mb-0 content">{{ .Site.Params.copyright | markdownify }}</p>
-  </div>
+  </div> -->
 </footer>
 
 {{ "<!-- Search index -->" | safeHTML }}

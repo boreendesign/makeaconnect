@@ -8,11 +8,11 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto text-center">
-        <h1 class="mb-5">{{ .title | markdownify }}</h1>
+        <h1 class="mb-5">Our mission is to help build a community for podcasters and to help guests find the right podcast where they want to share their message.</h1>
         <ul class="list-inline social-icons">
-          {{ range $.Site.Params.social }}
+         <!-- {{ range $.Site.Params.social }}
           <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="fa {{.icon}}"></i></a></li>
-          {{ end }}
+          {{ end }}-->
         </ul>
       </div>
     </div>
@@ -22,7 +22,7 @@
 {{ end }}
 <!-- /banner -->
 
-<!-- post layout -->
+<!-- post layout 
 <section>
   <div class="container">
     <div class="row justify-content-center">
@@ -89,8 +89,10 @@
       {{ partial "paginator.html" . }}
     </div>
 </section>
-<!-- /post layout -->
+
+-->
+<!-- /post layout 
 
 {{ partial "instafeed.html" . }}
-
+-->
 {{ end }}

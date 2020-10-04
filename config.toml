@@ -1,17 +1,17 @@
 ######################## default configuration ####################
 baseURL = "https://makeaconnect.com"
-title = "Timeframe"
+title = "Make A Connect - Connecting Guests with the Right Podcast"
 theme = "timeframe"
 # post pagination
 paginate = "4"
 # post excerpt
 summaryLength = "10"
 # google analytics
-googleAnalytics = "" # example : UA-123-45
+googleAnalytics = "UA-179587270-1" # example : UA-123-45
 # disqus short name
 disqusShortname = "#" # get your shortname form here : https://disqus.com
 # disable language
-disableLanguages = [] # desable language from here
+disableLanguages = ['Fr'] # desable language from here
 
 
 ############################# Outputs ##############################
@@ -61,24 +61,24 @@ URL = "http://demo.themefisher.com/timeframe-hugo/homepage-1/"
 weight = 1
 
 [[menu.main]]
-name = "About"
-URL = "about"
-weight = 2
+#name = "About"
+#URL = "about"
+#weight = 2
 
 [[menu.main]]
-name = "Portfolio"
-URL = "portfolio"
-weight = 3
+#name = "Portfolio"
+#URL = "portfolio"
+#weight = 3
 
 [[menu.main]]
-name = "Contact"
-URL = "contact"
-weight = 4
+#name = "Contact"
+#URL = "contact"
+#weight = 4
 
 [[menu.main]]
-name = "Privacy Policy"
-URL = "privacy-policy"
-weight = 5
+#name = "Privacy Policy"
+#URL = "privacy-policy"
+#weight = 5
 
 # footer menu
 [[menu.footer]]
@@ -87,29 +87,29 @@ URL = "/"
 weight = 1
 
 [[menu.footer]]
-name = "About"
-URL = "about"
-weight = 2
+#name = "About"
+#URL = "about"
+#weight = 2
 
 [[menu.footer]]
-name = "Portfolio"
-URL = "portfolio"
-weight = 3
+#name = "Portfolio"
+#URL = "portfolio"
+#weight = 3
 
 [[menu.footer]]
-name = "Privacy Policy"
-URL = "privacy-policy"
-weight = 4
+#name = "Privacy Policy"
+#URL = "privacy-policy"
+#weight = 4
 
 [[menu.footer]]
-name = "Contact"
-URL = "contact"
-weight = 5
+#name = "Contact"
+#URL = "contact"
+#weight = 5
 
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "images/mac_logo.png"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
