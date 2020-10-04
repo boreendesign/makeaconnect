@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://makeaconnect.com"
+baseURL = "https://makeaconnect.com"
 title = "Timeframe"
 theme = "timeframe"
 # post pagination

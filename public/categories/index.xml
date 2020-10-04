@@ -1,1 +1,52 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Timeframe</title><link>http://demo.themefisher.com/timeframe-hugo/homepage-2/categories/</link><description>Recent content in Categories on Timeframe</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Designed By [Themefisher](https://themefisher.com/) &amp; Developed By [Gethugothemes](https://gethugothemes.com/)</copyright><lastBuildDate>Tue, 12 May 2020 12:14:34 +0600</lastBuildDate><atom:link href="http://demo.themefisher.com/timeframe-hugo/homepage-2/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>decorate</title><link>http://demo.themefisher.com/timeframe-hugo/homepage-2/categories/decorate/</link><pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate><guid>http://demo.themefisher.com/timeframe-hugo/homepage-2/categories/decorate/</guid><description/></item><item><title>Decoration</title><link>http://demo.themefisher.com/timeframe-hugo/homepage-2/categories/decoration/</link><pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate><guid>http://demo.themefisher.com/timeframe-hugo/homepage-2/categories/decoration/</guid><description/></item><item><title>Photography</title><link>http://demo.themefisher.com/timeframe-hugo/homepage-2/categories/photography/</link><pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate><guid>http://demo.themefisher.com/timeframe-hugo/homepage-2/categories/photography/</guid><description/></item><item><title>portfolio</title><link>http://demo.themefisher.com/timeframe-hugo/homepage-2/categories/portfolio/</link><pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate><guid>http://demo.themefisher.com/timeframe-hugo/homepage-2/categories/portfolio/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Timeframe</title>
+    <link>http://makeaconnect.com/categories/</link>
+    <description>Recent content in Categories on Timeframe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Designed By [Themefisher](https://themefisher.com/) &amp; Developed By [Gethugothemes](https://gethugothemes.com/)</copyright>
+    <lastBuildDate>Tue, 12 May 2020 12:14:34 +0600</lastBuildDate>
+    
+	<atom:link href="http://makeaconnect.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>decorate</title>
+      <link>http://makeaconnect.com/categories/decorate/</link>
+      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      
+      <guid>http://makeaconnect.com/categories/decorate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decoration</title>
+      <link>http://makeaconnect.com/categories/decoration/</link>
+      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      
+      <guid>http://makeaconnect.com/categories/decoration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photography</title>
+      <link>http://makeaconnect.com/categories/photography/</link>
+      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      
+      <guid>http://makeaconnect.com/categories/photography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>portfolio</title>
+      <link>http://makeaconnect.com/categories/portfolio/</link>
+      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      
+      <guid>http://makeaconnect.com/categories/portfolio/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
